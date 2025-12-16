@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="de">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entdecken Sie unser Portfolio erstklassiger Automobilprojekte. Professionelle Fahrzeuglösungen und erfolgreiche Kundenprojekte von AutoElite Deutschland.">
+  <meta property="og:title" content="Portfolio - AutoElite Deutschland">
+  <meta property="og:description" content="Entdecken Sie unser Portfolio erstklassiger Automobilprojekte. Professionelle Fahrzeuglösungen und erfolgreiche Kundenprojekte.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://domain.com/portfolio.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7">
+  <link rel="canonical" href="https://domain.com/portfolio.html">
+  <title>Portfolio - AutoElite Deutschland</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+ </head>
+ <body>
+  <header class="l-header">
+   <div class="l-container">
+    <div class="l-header__inner">
+     <div class="l-header__brand">
+      <a href="index.html" class="c-logo"> <span class="c-logo__text">AutoFlow Deutschland</span> </a>
+     </div>
+     <nav class="c-nav" aria-label="Hauptnavigation">
+      <button class="c-nav__toggle" type="button" aria-controls="nav-menu" aria-expanded="false" aria-label="Navigationsmenü umschalten"><span class="c-nav__icon"></span></button>
+      <ul class="c-nav__menu" id="nav-menu">
+       <li class="c-nav__item"><a href="index.html" class="c-nav__link" aria-current="page">Startseite</a></li>
+       <li class="c-nav__item"><a href="about.html" class="c-nav__link">Über uns</a></li>
+       <li class="c-nav__item"><a href="services.html" class="c-nav__link">Leistungen</a></li>
+       <li class="c-nav__item"><a href="portfolio.html" class="c-nav__link">Portfolio</a></li>
+       <li class="c-nav__item"><a href="privacy.html" class="c-nav__link">Datenschutz</a></li>
+      </ul>
+     </nav>
+    </div>
+   </div>
+  </header>
+  <main>
+   <section class="l-section c-hero-secondary py-4 py-md-5">
+    <div class="l-container">
+     <nav aria-label="Brotkrümelnavigation">
+      <ol class="breadcrumb">
+       <li class="breadcrumb-item"><a href="index.html">Startseite</a></li>
+       <li class="breadcrumb-item active" aria-current="page">Portfolio</li>
+      </ol>
+     </nav>
+     <div class="row align-items-center">
+      <div class="col-12 col-lg-6" data-aos="fade-right">
+       <h1 class="c-hero-secondary__title">Unsere Erfolgsgeschichten</h1>
+       <p class="c-hero-secondary__subtitle">Entdecken Sie unsere herausragenden Automobilprojekte und die maßgeschneiderten Lösungen, die wir für unsere geschätzten Kunden entwickelt haben.</p>
+      </div>
+      <div class="col-12 col-lg-6" data-aos="fade-left">
+       <div class="ratio ratio-16x9">
+        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1200&amp;h=675&amp;fit=crop" alt="Luxusfahrzeuge, Sportwagen, Automobilausstellung, Premium, Showroom" class="img-fluid" style="object-fit: cover;" width="1200" height="675" loading="eager">
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="l-section py-5" id="portfolio-filters">
+    <div class="l-container">
+     <div class="row mb-4">
+      <div class="col-12 text-center" data-aos="fade-up">
+       <h2 class="c-section-title">Projektgalerie</h2>
+       <p class="c-section-subtitle">Filtern Sie nach Kategorie, um spezifische Projekte zu entdecken</p>
+      </div>
+     </div>
+     <div class="row mb-5">
+      <div class="col-12">
+       <div class="c-filter-bar" role="group" aria-label="Projektfilter">
+        <button class="c-filter-btn is-active" data-filter="all" aria-pressed="true">Alle Projekte</button>
+        <button class="c-filter-btn" data-filter="luxury" aria-pressed="false">Luxusfahrzeuge</button>
+        <button class="c-filter-btn" data-filter="sports" aria-pressed="false">Sportwagen</button>
+        <button class="c-filter-btn" data-filter="electric" aria-pressed="false">Elektrofahrzeuge</button>
+        <button class="c-filter-btn" data-filter="classic" aria-pressed="false">Klassiker</button>
+       </div>
+      </div>
+     </div>
+     <div class="row g-4" id="portfolio-grid">
+      <div class="col-12 col-md-6 col-lg-4 portfolio-item" data-category="luxury" data-aos="fade-up" data-aos-delay="0">
+       <div class="card c-portfolio-card h-100 d-flex flex-column">
+        <div class="ratio ratio-4x3">
+         <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?w=800&amp;h=600&amp;fit=crop" alt="Mercedes-Benz S-Klasse, Luxuslimousine, Premium, Executive, Komfort" class="card-img-top" style="object-fit: cover;" width="800" height="600" loading="lazy">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <h3 class="card-title h5">Executive Limousine</h3>
+         <p class="card-text">Maßgeschneidertes Flottenmanagement für einen internationalen Konzern mit 50 Premium-Fahrzeugen der S-Klasse.</p>
+         <div class="mt-auto">
+          <button class="c-btn c-btn--primary" data-bs-toggle="modal" data-bs-target="#portfolioModal1" aria-label="Details zum Executive Limousine Projekt anzeigen">Details ansehen</button>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 portfolio-item" data-category="sports" data-aos="fade-up" data-aos-delay="100">
+       <div class="card c-portfolio-card h-100 d-flex flex-column">
+        <div class="ratio ratio-4x3">
+         <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&amp;h=600&amp;fit=crop" alt="Porsche 911, Sportwagen, Performance, Rennstrecke, Speed" class="card-img-top" style="object-fit: cover;" width="800" height="600" loading="lazy">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <h3 class="card-title h5">Performance Tuning</h3>
+         <p class="card-text">Optimierung eines Porsche 911 GT3 für Rennstreckeneinsätze mit individueller Abstimmung und aerodynamischen Upgrades.</p>
+         <div class="mt-auto">
+          <button class="c-btn c-btn--primary" data-bs-toggle="modal" data-bs-target="#portfolioModal2" aria-label="Details zum Performance Tuning Projekt anzeigen">Details ansehen</button>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 portfolio-item" data-category="electric" data-aos="fade-up" data-aos-delay="200">
+       <div class="card c-portfolio-card h-100 d-flex flex-column">
+        <div class="ratio ratio-4x3">
+         <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&amp;h=600&amp;fit=crop" alt="Tesla Model S, Elektroauto, nachhaltig, Innovation, Zukunft" class="card-img-top" style="object-fit: cover;" width="800" height="600" loading="lazy">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <h3 class="card-title h5">Elektromobilität</h3>
+         <p class="card-text">Komplette Umstellung einer Unternehmensflotte auf Elektrofahrzeuge mit Ladeinfrastruktur und Managementsystem.</p>
+         <div class="mt-auto">
+          <button class="c-btn c-btn--primary" data-bs-toggle="modal" data-bs-target="#portfolioModal3" aria-label="Details zum Elektromobilität Projekt anzeigen">Details ansehen</button>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 portfolio-item" data-category="luxury" data-aos="fade-up" data-aos-delay="0">
+       <div class="card c-portfolio-card h-100 d-flex flex-column">
+        <div class="ratio ratio-4x3">
+         <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=800&amp;h=600&amp;fit=crop" alt="Rolls-Royce Phantom, Luxusautomobil, Prestige, Handwerk, Exklusivität" class="card-img-top" style="object-fit: cover;" width="800" height="600" loading="lazy">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <h3 class="card-title h5">Bespoke Customization</h3>
+         <p class="card-text">Individuelle Innenausstattung eines Rolls-Royce Phantom mit handgefertigten Holzarbeiten und exklusiven Materialien.</p>
+         <div class="mt-auto">
+          <button class="c-btn c-btn--primary" data-bs-toggle="modal" data-bs-target="#portfolioModal4" aria-label="Details zum Bespoke Customization Projekt anzeigen">Details ansehen</button>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 portfolio-item" data-category="classic" data-aos="fade-up" data-aos-delay="100">
+       <div class="card c-portfolio-card h-100 d-flex flex-column">
+        <div class="ratio ratio-4x3">
+         <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?w=800&amp;h=600&amp;fit=crop" alt="Mercedes-Benz 300SL, Oldtimer, Restaurierung, Vintage, Sammlerstück" class="card-img-top" style="object-fit: cover;" width="800" height="600" loading="lazy">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <h3 class="card-title h5">Restaurierungsprojekt</h3>
+         <p class="card-text">Komplette Restaurierung eines Mercedes-Benz 300SL Flügeltürer aus dem Jahr 1955 nach Originalspezifikationen.</p>
+         <div class="mt-auto">
+          <button class="c-btn c-btn--primary" data-bs-toggle="modal" data-bs-target="#portfolioModal5" aria-label="Details zum Restaurierungsprojekt anzeigen">Details ansehen</button>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 portfolio-item" data-category="sports" data-aos="fade-up" data-aos-delay="200">
+       <div class="card c-portfolio-card h-100 d-flex flex-column">
+        <div class="ratio ratio-4x3">
+         <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&amp;h=600&amp;fit=crop" alt="BMW M4, Sportwagen, Rennstrecke, Dynamik, Power" class="card-img-top" style="object-fit: cover;" width="800" height="600" loading="lazy">
+        </div>
+        <div class="card-body d-flex flex-column">
+         <h3 class="card-title h5">Track-Day Special</h3>
+         <p class="card-text">Umbau eines BMW M4 für Rennstreckeneinsätze mit Überrollkäfig, Sportreifen und Performance-Bremsen.</p>
+         <div class="mt-auto">
+          <button class="c-btn c-btn--primary" data-bs-toggle="modal" data-bs-target="#portfolioModal6" aria-label="Details zum Track-Day Special Projekt anzeigen">Details ansehen</button>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="l-section py-5 c-bg-texture" id="download-brochure">
+    <div class="l-container">
+     <div class="row align-items-center">
+      <div class="col-12 col-lg-6" data-aos="fade-right">
+       <h2 class="c-section-title">Portfolio-Broschüre</h2>
+       <p class="c-section-subtitle mb-4">Laden Sie unsere umfassende Portfolio-Broschüre herunter und erhalten Sie detaillierte Einblicke in unsere erfolgreichsten Projekte, Kundenbewertungen und technische Spezifikationen.</p>
+       <ul class="c-feature-list">
+        <li>Über 50 detaillierte Projektbeschreibungen</li>
+        <li>Hochauflösende Bildgalerien</li>
+        <li>Technische Datenblätter</li>
+        <li>Kundentestimonials und Erfolgsgeschichten</li>
+       </ul>
+       <a href="#" class="c-btn c-btn--secondary mt-3" aria-label="Portfolio-Broschüre als PDF herunterladen"> 
+        <svg class="c-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> <polyline points="7 10 12 15 17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg> Broschüre herunterladen (PDF) 
+       </a>
+      </div>
+      <div class="col-12 col-lg-6" data-aos="fade-left">
+       <div class="ratio ratio-4x3">
+        <img src="https://images.unsplash.com/photo-1531973486364-5fa64260d75b?w=800&amp;h=600&amp;fit=crop" alt="Portfolio Broschüre, Katalog, Präsentation, Dokumentation, Publikation" class="img-fluid" style="object-fit: cover;" width="800" height="600" loading="lazy">
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="l-section py-5" id="client-logos">
+    <div class="l-container">
+     <div class="row mb-5">
+      <div class="col-12 text-center" data-aos="fade-up">
+       <h2 class="c-section-title">Vertrauen von führenden Marken</h2>
+       <p class="c-section-subtitle">Unsere Kunden schätzen unsere Expertise und Zuverlässigkeit</p>
+      </div>
+     </div>
+     <div class="row g-4 align-items-center justify-content-center">
+      <div class="col-6 col-md-4 col-lg-2 text-center" data-aos="fade-up" data-aos-delay="0">
+       <div class="c-client-logo">
+        <svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mercedes-Benz Logo">
+         <circle cx="60" cy="30" r="25" stroke="currentColor" stroke-width="2" fill="none" /> <path d="M60 10 L60 30 L80 40" stroke="currentColor" stroke-width="2" fill="none" /> <path d="M60 30 L40 40" stroke="currentColor" stroke-width="2" fill="none" />
+        </svg>
+       </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 text-center" data-aos="fade-up" data-aos-delay="100">
+       <div class="c-client-logo">
+        <svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BMW Logo">
+         <circle cx="60" cy="30" r="25" stroke="currentColor" stroke-width="2" fill="none" /> <path d="M35 30 L85 30 M60 5 L60 55" stroke="currentColor" stroke-width="2" />
+        </svg>
+       </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+       <div class="c-client-logo">
+        <svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Audi Logo">
+         <circle cx="40" cy="30" r="12" stroke="currentColor" stroke-width="2" fill="none" /> <circle cx="60" cy="30" r="12" stroke="currentColor" stroke-width="2" fill="none" /> <circle cx="80" cy="30" r="12" stroke="currentColor" stroke-width="2" fill="none" />
+        </svg>
+       </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 text-center" data-aos="fade-up" data-aos-delay="300">
+       <div class="c-client-logo">
+        <svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Porsche Logo">
+         <rect x="35" y="15" width="50" height="30" stroke="currentColor" stroke-width="2" fill="none" /> <path d="M45 30 L75 30" stroke="currentColor" stroke-width="2" />
+        </svg>
+       </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 text-center" data-aos="fade-up" data-aos-delay="400">
+       <div class="c-client-logo">
+        <svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Volkswagen Logo">
+         <circle cx="60" cy="30" r="25" stroke="currentColor" stroke-width="2" fill="none" /> <path d="M45 20 L55 40 L60 35 L65 40 L75 20" stroke="currentColor" stroke-width="2" fill="none" />
+        </svg>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="l-section py-5 c-bg-alt" id="video-demos">
+    <div class="l-container">
+     <div class="row mb-5">
+      <div class="col-12 text-center" data-aos="fade-up">
+       <h2 class="c-section-title">Video-Demonstrationen</h2>
+       <p class="c-section-subtitle">Erleben Sie unsere Projekte in Aktion</p>
+      </div>
+     </div>
+     <div class="row g-4">
+      <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="0">
+       <div class="c-video-card">
+        <div class="ratio ratio-16x9">
+         <img src="https://images.unsplash.com/photo-1486496146582-9ffcd0b2b2b7?w=800&amp;h=450&amp;fit=crop" alt="Video Demonstration, Luxusfahrzeug, Präsentation, Showroom, Performance" class="img-fluid" style="object-fit: cover;" width="800" height="450" loading="lazy">
+         <div class="c-video-overlay">
+          <button class="c-play-btn" aria-label="Video abspielen">
+           <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="30" cy="30" r="28" stroke="white" stroke-width="2" fill="rgba(0,0,0,0.5)" /> <path d="M25 20 L40 30 L25 40 Z" fill="white" />
+           </svg>
+          </button>
+         </div>
+        </div>
+        <div class="c-video-card__content">
+         <h3 class="h5">Flottenübergabe Projekt</h3>
+         <p>Dokumentation der Übergabe von 30 Premium-Fahrzeugen an einen internationalen Konzern.</p>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="100">
+       <div class="c-video-card">
+        <div class="ratio ratio-16x9">
+         <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&amp;h=450&amp;fit=crop" alt="Video Demo, Sportwagen, Rennstrecke, Testing, Performance" class="img-fluid" style="object-fit: cover;" width="800" height="450" loading="lazy">
+         <div class="c-video-overlay">
+          <button class="c-play-btn" aria-label="Video abspielen">
+           <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="30" cy="30" r="28" stroke="white" stroke-width="2" fill="rgba(0,0,0,0.5)" /> <path d="M25 20 L40 30 L25 40 Z" fill="white" />
+           </svg>
+          </button>
+         </div>
+        </div>
+        <div class="c-video-card__content">
+         <h3 class="h5">Rennstrecken-Performance</h3>
+         <p>Testfahrten und Performance-Analyse unserer optimierten Sportwagen auf der Nordschleife.</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="l-section py-5" id="cta-section">
+    <div class="l-container">
+     <div class="row justify-content-center">
+      <div class="col-12 col-lg-8 text-center" data-aos="fade-up">
+       <h2 class="c-section-title">Bereit für Ihr eigenes Projekt?</h2>
+       <p class="c-section-subtitle mb-4">Kontaktieren Sie uns noch heute und lassen Sie uns gemeinsam Ihre Vision verwirklichen. Unser erfahrenes Team steht bereit, um Ihre individuellen Anforderungen zu besprechen.</p>
+       <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
+        <a href="index.html#contact-form" class="c-btn c-btn--primary">Kontakt aufnehmen</a> <a href="services.html" class="c-btn c-btn--secondary">Unsere Leistungen</a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+   <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h3 class="modal-title h5" id="portfolioModal1Label">Executive Limousine Projekt</h3>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+     </div>
+     <div class="modal-body">
+      <div class="ratio ratio-16x9 mb-4">
+       <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?w=1200&amp;h=675&amp;fit=crop" alt="Mercedes-Benz S-Klasse Detail" class="img-fluid" style="object-fit: cover;" width="1200" height="675" loading="lazy">
+      </div>
+      <h4 class="h6">Projektübersicht</h4>
+      <p>Für einen führenden internationalen Konzern haben wir eine exklusive Flotte von 50 Mercedes-Benz S-Klasse Fahrzeugen beschafft und individuell konfiguriert. Das Projekt umfasste die komplette Fahrzeugausstattung, Branding und Integration in das bestehende Flottenmanagement-System.</p>
+      <h4 class="h6 mt-3">Leistungen</h4>
+      <ul>
+       <li>Bedarfsanalyse und Fahrzeugauswahl</li>
+       <li>Individuelle Konfiguration und Ausstattung</li>
+       <li>Corporate Branding und Folierung</li>
+       <li>Flottenmanagement-Integration</li>
+       <li>Wartungs- und Servicepaket</li>
+      </ul>
+      <h4 class="h6 mt-3">Ergebnis</h4>
+      <p>Die Flotte wurde termingerecht übergeben und erfüllt alle Anforderungen des Kunden. Das integrierte Flottenmanagement-System ermöglicht eine effiziente Verwaltung und Kostenkontrolle.</p>
+     </div>
+     <div class="modal-footer">
+      <button type="button" class="c-btn c-btn--secondary" data-bs-dismiss="modal">Schließen</button>
+      <a href="index.html#contact-form" class="c-btn c-btn--primary">Ähnliches Projekt anfragen</a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+   <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h3 class="modal-title h5" id="portfolioModal2Label">Performance Tuning Projekt</h3>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+     </div>
+     <div class="modal-body">
+      <div class="ratio ratio-16x9 mb-4">
+       <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=1200&amp;h=675&amp;fit=crop" alt="Porsche 911 Detail" class="img-fluid" style="object-fit: cover;" width="1200" height="675" loading="lazy">
+      </div>
+      <h4 class="h6">Projektübersicht</h4>
+      <p>Umfassende Performance-Optimierung eines Porsche 911 GT3 für den ambitionierten Motorsport-Enthusiasten. Das Projekt umfasste Motortuning, aerodynamische Verbesserungen und Fahrwerksabstimmung.</p>
+      <h4 class="h6 mt-3">Leistungen</h4>
+      <ul>
+       <li>Motoroptimierung und ECU-Tuning</li>
+       <li>Aerodynamik-Paket (Front-Splitter, Heckflügel)</li>
+       <li>Sportfahrwerk mit einstellbaren Dämpfern</li>
+       <li>Hochleistungs-Bremssystem</li>
+       <li>Rennstrecken-Setup und Testing</li>
+      </ul>
+      <h4 class="h6 mt-3">Ergebnis</h4>
+      <p>Leistungssteigerung um 15% bei gleichzeitiger Verbesserung der Rennstreckenzeiten um 3 Sekunden pro Runde. Der Kunde ist begeistert von der Performance und Fahrdynamik.</p>
+     </div>
+     <div class="modal-footer">
+      <button type="button" class="c-btn c-btn--secondary" data-bs-dismiss="modal">Schließen</button>
+      <a href="index.html#contact-form" class="c-btn c-btn--primary">Ähnliches Projekt anfragen</a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+   <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h3 class="modal-title h5" id="portfolioModal3Label">Elektromobilität Projekt</h3>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+     </div>
+     <div class="modal-body">
+      <div class="ratio ratio-16x9 mb-4">
+       <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=1200&amp;h=675&amp;fit=crop" alt="Tesla Model S Detail" class="img-fluid" style="object-fit: cover;" width="1200" height="675" loading="lazy">
+      </div>
+      <h4 class="h6">Projektübersicht</h4>
+      <p>Komplette Umstellung der Unternehmensflotte eines mittelständischen Unternehmens auf Elektrofahrzeuge. Das Projekt beinhaltete Fahrzeugbeschaffung, Installation der Ladeinfrastruktur und Schulung der Mitarbeiter.</p>
+      <h4 class="h6 mt-3">Leistungen</h4>
+      <ul>
+       <li>Bedarfsanalyse und Fahrzeugauswahl</li>
+       <li>Installation von 25 Wallboxen</li>
+       <li>Lastmanagement-System</li>
+       <li>Mitarbeiterschulungen</li>
+       <li>Energie- und Kostenmonitoring</li>
+      </ul>
+      <h4 class="h6 mt-3">Ergebnis</h4>
+      <p>Reduzierung der Flottenkosten um 30% und der CO2-Emissionen um 100%. Das Unternehmen erreicht seine Nachhaltigkeitsziele früher als geplant.</p>
+     </div>
+     <div class="modal-footer">
+      <button type="button" class="c-btn c-btn--secondary" data-bs-dismiss="modal">Schließen</button>
+      <a href="index.html#contact-form" class="c-btn c-btn--primary">Ähnliches Projekt anfragen</a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+   <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h3 class="modal-title h5" id="portfolioModal4Label">Bespoke Customization Projekt</h3>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+     </div>
+     <div class="modal-body">
+      <div class="ratio ratio-16x9 mb-4">
+       <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=1200&amp;h=675&amp;fit=crop" alt="Rolls-Royce Phantom Detail" class="img-fluid" style="object-fit: cover;" width="1200" height="675" loading="lazy">
+      </div>
+      <h4 class="h6">Projektübersicht</h4>
+      <p>Exklusive Individualisierung eines Rolls-Royce Phantom für einen anspruchsvollen Sammler. Das Projekt umfasste maßgefertigte Innenausstattung mit seltenen Hölzern, handgenähtem Leder und personalisierten Details.</p>
+      <h4 class="h6 mt-3">Leistungen</h4>
+      <ul>
+       <li>Design-Beratung und Konzeptentwicklung</li>
+       <li>Auswahl exklusiver Materialien</li>
+       <li>Handgefertigte Holzarbeiten</li>
+       <li>Personalisierte Stickereien und Embleme</li>
+       <li>Qualitätskontrolle und Endabnahme</li>
+      </ul>
+      <h4 class="h6 mt-3">Ergebnis</h4>
+      <p>Ein einzigartiges Fahrzeug, das die persönlichen Vorlieben des Kunden perfekt widerspiegelt. Die Kombination aus traditionellem Handwerk und moderner Technik überzeugt auf ganzer Linie.</p>
+     </div>
+     <div class="modal-footer">
+      <button type="button" class="c-btn c-btn--secondary" data-bs-dismiss="modal">Schließen</button>
+      <a href="index.html#contact-form" class="c-btn c-btn--primary">Ähnliches Projekt anfragen</a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+   <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h3 class="modal-title h5" id="portfolioModal5Label">Restaurierungsprojekt</h3>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+     </div>
+     <div class="modal-body">
+      <div class="ratio ratio-16x9 mb-4">
+       <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?w=1200&amp;h=675&amp;fit=crop" alt="Mercedes-Benz 300SL Detail" class="img-fluid" style="object-fit: cover;" width="1200" height="675" loading="lazy">
+      </div>
+      <h4 class="h6">Projektübersicht</h4>
+      <p>Vollständige Restaurierung eines Mercedes-Benz 300SL Flügeltürer Baujahr 1955. Das Projekt erstreckte sich über 18 Monate und umfasste die komplette Demontage, Restaurierung aller Komponenten und originalgetreuen Wiederaufbau.</p>
+      <h4 class="h6 mt-3">Leistungen</h4>
+      <ul>
+       <li>Historische Recherche und Dokumentation</li>
+       <li>Karosserie-Restaurierung und Lackierung</li>
+       <li>Motor- und Getriebeüberholung</li>
+       <li>Innenausstattung nach Originalspezifikation</li>
+       <li>Zertifizierung und Wertgutachten</li>
+      </ul>
+      <h4 class="h6 mt-3">Ergebnis</h4>
+      <p>Ein preisgekröntes Restaurierungsprojekt, das auf mehreren Concours d'Elegance Veranstaltungen ausgezeichnet wurde. Der Wert des Fahrzeugs hat sich durch die professionelle Restaurierung verdoppelt.</p>
+     </div>
+     <div class="modal-footer">
+      <button type="button" class="c-btn c-btn--secondary" data-bs-dismiss="modal">Schließen</button>
+      <a href="index.html#contact-form" class="c-btn c-btn--primary">Ähnliches Projekt anfragen</a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+   <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h3 class="modal-title h5" id="portfolioModal6Label">Track-Day Special Projekt</h3>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+     </div>
+     <div class="modal-body">
+      <div class="ratio ratio-16x9 mb-4">
+       <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=1200&amp;h=675&amp;fit=crop" alt="BMW M4 Detail" class="img-fluid" style="object-fit: cover;" width="1200" height="675" loading="lazy">
+      </div>
+      <h4 class="h6">Projektübersicht</h4>
+      <p>Umbau eines BMW M4 Competition für regelmäßige Rennstreckeneinsätze. Das Projekt kombiniert Straßenzulassung mit optimaler Rennstrecken-Performance durch reversible Modifikationen.</p>
+      <h4 class="h6 mt-3">Leistungen</h4>
+      <ul>
+       <li>Überrollkäfig mit TÜV-Abnahme</li>
+       <li>Hochleistungs-Bremssystem (6-Kolben vorne)</li>
+       <li>Verstellbares Gewindefahrwerk</li>
+       <li>Sportreifen-Setup (Straße/Rennstrecke)</li>
+       <li>Datenlogger und Telemetrie</li>
+      </ul>
+      <h4 class="h6 mt-3">Ergebnis</h4>
+      <p>Ein vielseitiges Fahrzeug, das sowohl im Straßenverkehr als auch auf der Rennstrecke überzeugt. Der Kunde nimmt regelmäßig an Track-Days teil und erzielt beeindruckende Rundenzeiten.</p>
+     </div>
+     <div class="modal-footer">
+      <button type="button" class="c-btn c-btn--secondary" data-bs-dismiss="modal">Schließen</button>
+      <a href="index.html#contact-form" class="c-btn c-btn--primary">Ähnliches Projekt anfragen</a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <footer class="c-testimonial__author mt-auto">
+   <strong>Michael Weber</strong>
+   <br>
+   <small class="text-muted">München</small>
+  </footer>
+  <script src="script.js" defer></script>
+ </body>
+</html>
